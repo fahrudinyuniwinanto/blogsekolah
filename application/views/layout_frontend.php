@@ -170,7 +170,7 @@ $last_id_video = $this->db->select_max('id_video')->get('video')->row()->id_vide
 
 <div class="footer-bottom row align-items-center justify-content-between">
 						<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<a href="<?=base_url()?>frontend/login">Copyright</a> &copy;<script> 2019</script> All rights reserved | Developed by <a href="https://youtube.com/c/peternakkode" target="_blank">Peternak Kode</a>
+<a href="<?=base_url()?>frontend/login">Copyright</a> &copy;<script> 2019</script> All rights reserved
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 						<div class="col-lg-6 col-sm-12 footer-social">
 							<a href="<?=data_app('APP_FB')?>"><i class="fa fa-facebook"></i></a>
