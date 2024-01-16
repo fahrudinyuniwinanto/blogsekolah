@@ -29,7 +29,7 @@ $totPtk     = $this->Ptk_model->total_rows();
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Education</title>
+		<title><?=data_app()?></title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 			<!--
@@ -70,7 +70,7 @@ $totPtk     = $this->Ptk_model->total_rows();
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="<?=base_url()?>assets/vendor/education/img/logo.png" alt="" title="" /></a>
+			        <a href="<?=base_url()?>"><img src="<?=base_url()?>assets/vendor/education/img/logo.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
