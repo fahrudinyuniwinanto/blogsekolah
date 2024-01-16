@@ -7,7 +7,7 @@ class Auth extends CI_Controller {
         $this->load->model('Auth_model');
     }
     public function index($error = NULL) { 
-        redirect(base_url(),'refresh');
+        $this->load->view("frontend/login",array('error' => $error));
     }
 
     public function login() {

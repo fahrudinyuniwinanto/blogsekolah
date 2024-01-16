@@ -10,7 +10,7 @@ function sf_construct() {
 
 function sf_slider($name) {
 	$ci = &get_instance();
-	return $ci->db->query("SELECT gambar FROM slider aa inner join kategori bb on aa.kategori=bb.id_kat WHERE bb.cat_name='$name' order by created_at desc")->row()->gambar;
+	return @$ci->db->query("SELECT gambar FROM slider aa inner join kategori bb on aa.kategori=bb.id_kat WHERE bb.cat_name='$name' order by created_at desc")->row()->gambar;
 }
 
 function sf_qr_generate($data) {
